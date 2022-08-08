@@ -1,0 +1,154 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web dicoding</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container-flex">
+          <div class="brand">
+            <a href="index.html">OTOGARAGE</a>
+          </div>
+          <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <div class="bg-sidebar"></div>
+          <ul class="sidebar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login">Log In</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="konten">
+        <section id="home">
+          <div class="kolom">
+            <h1>Service Kendaraan Motor & Mobil Tanpa Ribet</h1>
+            <p>
+              Website ini bergerak di bidang jasa service atau perbaikan kendaraan yang dapat dipesan melalui website. Selain jasa service kendaraan, kami juga menyediakan kebutuhan sparepart kendaraan dengan kualitas yang baik dengan harga
+              yang terjangkau.
+            </p>
+            <p><a href="" class="tbl">Readmore</a></p>
+          </div>
+          <img src="logo.jpg" alt="" width="40%" />
+        </section>
+      </div>
+
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-header-about">
+            <br />
+            <h2>About Us</h2>
+            <p>Learn More <span>About Us</span></p>
+          </div>
+
+          <section id="courses">
+            <div class="kolom1">
+              <h2>OTOGARAGE</h2>
+              <p>Kami menyediakan produk jasa service kendaraan, baik mobil ataupun motor dengan mekanik yang berpengalaman</p>
+              <p>Kami juga menyediakan produk spareparts kendaraan yang berkualitas dengan harga yang terjangkau.</p>
+              <p>Kemudahan untuk melayani customer disini kami Bekerja 24 Jam,Jadi tidak perlu khawatir ketika anda mengalami masalah terhadap kendaraan anda,anda bisa langsung mengorder website ini</p>
+            </div>
+            <img src="banner.jpg" width="50%" />
+          </section>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery">
+        <div class="containers">
+          <div class="section-header-gallery">
+            <h2>Gallery</h2>
+            <p>Learn More <span>Gallery Us</span></p>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <img src="gallery1.jpg" style="width: 100%" />
+            </div>
+            <div class="column">
+              <img src="gallery2.jpg" style="width: 100%" />
+            </div>
+            <div class="column">
+              <img src="gallery3.jpg" style="width: 100%" />
+            </div>
+            <div class="column">
+              <img src="gallery4.jpg" style="width: 100%" />
+            </div>
+            <div class="column">
+              <img src="gallery5.jpg" style="width: 100%" />
+            </div>
+            <div class="column">
+              <img src="gallery6.jpg" style="width: 100%" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="Contact">
+        <h2>Contact</h2>
+        <p>Need Help?<span> Contact Us</span></p>
+      </div>
+
+      <section id="contact">
+        <div class="containere">
+          <form action="action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Country</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option value="australia">Indonesia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Website OTOGARAGE &#169; 2022, Dicoding Academy</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
